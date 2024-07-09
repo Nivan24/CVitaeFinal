@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "885976170406",
+    "project_id": "cvitae-1d54e",
+    "storage_bucket": "cvitae-1d54e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885976170406:android:2454a184d5812be3871967",
+        "android_client_info": {
+          "package_name": "com.example.cvitaefinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrs_FnB5wIBkWqNDr1GGdM_xQGBliKK9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
