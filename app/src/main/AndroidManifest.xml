@@ -16,6 +16,14 @@
             android:name=".registro"
             android:exported="false" />
         <activity
+            android:name=".Menu"
+            android:exported="false"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/Theme.CVitaeFinal.NoActionBar" />
+        <activity
+            android:name=".menu"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
