@@ -15,6 +15,7 @@ class registro : AppCompatActivity() {
         setContentView(R.layout.activity_registro)
 
 
+
         val inicio = findViewById<Button>(R.id.btnInicio)
         inicio.setOnClickListener{
             val intent = Intent(this, incio::class.java)
