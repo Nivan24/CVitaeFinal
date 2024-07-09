@@ -1,6 +1,8 @@
 package com.example.cvitaefinal
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +13,14 @@ class registro : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_registro)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+
+        val inicio = findViewById<Button>(R.id.btnInicio)
+        inicio.setOnClickListener{
+            val intent = Intent(this, incio::class.java)
+            startActivity(intent)
+
+        }
+
         }
     }
-}
