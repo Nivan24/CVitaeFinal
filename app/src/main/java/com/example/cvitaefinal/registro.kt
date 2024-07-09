@@ -1,5 +1,6 @@
 package com.example.cvitaefinal
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
@@ -12,10 +13,12 @@ class registro : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_registro)
-        va
+
 
         val inicio = findViewById<Button>(R.id.btnInicio)
         inicio.setOnClickListener{
+            val intent = Intent(this, incio::class.java)
+            startActivity(intent)
 
         }
 
