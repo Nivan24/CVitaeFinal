@@ -111,7 +111,7 @@
         android:id="@+id/button4"
         android:layout_width="284dp"
         android:layout_height="46dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="32dp"
         android:backgroundTint="@color/botones"
         android:fontFamily="@font/inter_bold"
         android:text="Iniciar sesión"
@@ -126,7 +126,7 @@
         android:id="@+id/btn_crear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="40dp"
         android:backgroundTint="@color/fondo"
         android:fontFamily="@font/inter_bold"
         android:text="Crea tu cuenta"
@@ -140,11 +140,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="409dp"
-        android:layout_height="186dp"
-        android:layout_marginBottom="12dp"
+        android:layout_width="288dp"
+        android:layout_height="179dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toTopOf="@+id/txt_titulo"
-        app:srcCompat="@drawable/pexels_edmond_dantes_4342124"
-        tools:layout_editor_absoluteX="1dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pexels_edmond_dantes_4342124" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
