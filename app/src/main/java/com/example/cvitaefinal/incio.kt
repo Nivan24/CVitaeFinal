@@ -20,6 +20,12 @@ class incio : AppCompatActivity() {
             // Crear un Intent para abrir RegistroActivity
             val intent = Intent(this, registro::class.java)
             startActivity(intent)
+
+            val btnInicio = findViewById<Button>(R.id.btn_sesion)
+            btnInicio.setOnClickListener{
+                val intent = Intent(this, formacion::class.java)
+                startActivity(intent)
+            }
         }
     }
 }
