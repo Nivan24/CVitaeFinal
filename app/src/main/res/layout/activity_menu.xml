@@ -107,4 +107,5 @@
         app:srcCompat="@drawable/cv__1__removebg_preview"
         tools:layout_editor_absoluteX="127dp"
         tools:layout_editor_absoluteY="110dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
