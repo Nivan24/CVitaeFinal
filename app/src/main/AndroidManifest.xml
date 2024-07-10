@@ -13,7 +13,16 @@
         android:theme="@style/Theme.CVitaeFinal"
         tools:targetApi="31">
         <activity
+            android:name=".pagina_principal"
+            android:exported="false" />
+        <activity
+            android:name=".experiencia"
+            android:exported="false" />
+        <activity
             android:name=".formacion"
+            android:exported="false" />
+        <activity
+            android:name=".menu"
             android:exported="false" />
         <activity
             android:name=".registro"

@@ -23,7 +23,7 @@ class incio : AppCompatActivity() {
 
             val btnInicio = findViewById<Button>(R.id.btn_sesion)
             btnInicio.setOnClickListener{
-                val intent = Intent(this, formacion::class.java)
+                val intent = Intent(this, menu::class.java)
                 startActivity(intent)
             }
         }
