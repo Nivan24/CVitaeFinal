@@ -14,10 +14,11 @@
         android:layout_width="63dp"
         android:layout_height="66dp"
         android:layout_marginTop="44dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/opcion1"
         android:fontFamily="@font/inter_bold"
         android:textColor="@color/titulos"
         android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,76 +36,119 @@
         android:textColor="@color/fondo"
         android:textSize="24sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/btn_menu"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btn_lista"
         android:layout_width="354dp"
         android:layout_height="56dp"
+        android:layout_marginBottom="24dp"
         android:backgroundTint="@color/botones"
         android:fontFamily="@font/inter_bold"
         android:text="Lista de CV`s"
         android:textColor="@color/fondo"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="562dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btn_cerrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_formacion"
         android:layout_width="354dp"
         android:layout_height="56dp"
+        android:layout_marginBottom="12dp"
         android:backgroundTint="@color/botones"
         android:fontFamily="@font/inter_bold"
         android:text="Formacion"
         android:textColor="@color/fondo"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="350dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btn_experiencia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_info"
         android:layout_width="354dp"
         android:layout_height="56dp"
+        android:layout_marginBottom="12dp"
         android:backgroundTint="@color/botones"
         android:fontFamily="@font/inter_bold"
         android:text="Informacion de contacto"
         android:textColor="@color/fondo"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="276dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btn_formacion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_plantillas"
         android:layout_width="354dp"
         android:layout_height="56dp"
+        android:layout_marginBottom="12dp"
         android:backgroundTint="@color/botones"
         android:fontFamily="@font/inter_bold"
         android:text="Plantillas"
         android:textColor="@color/fondo"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="492dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btn_lista"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_experiencia"
         android:layout_width="354dp"
         android:layout_height="56dp"
+        android:layout_marginBottom="12dp"
         android:backgroundTint="@color/botones"
         android:fontFamily="@font/inter_bold"
         android:text="Experiencia"
         android:textColor="@color/fondo"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="420dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btn_plantillas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_cerrar"
+        android:layout_width="271dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="@color/fondo"
+        android:fontFamily="@font/inter_bold"
+        android:text="Cerrar sesion"
+        android:textColor="@color/titulos"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="157dp"
         android:layout_height="152dp"
-        app:srcCompat="@drawable/cv__1__removebg_preview"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="110dp" />
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cv__1__removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="41dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu__1_" />
 </androidx.constraintlayout.widget.ConstraintLayout>

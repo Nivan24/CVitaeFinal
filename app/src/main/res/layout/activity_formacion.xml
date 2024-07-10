@@ -27,7 +27,7 @@
         android:layout_width="175dp"
         android:layout_height="52dp"
         android:layout_marginBottom="120dp"
-        android:backgroundTint="#4D82BC"
+        android:backgroundTint="@color/botones"
         android:fontFamily="@font/inter_bold"
         android:text="Agregar"
         android:textSize="14sp"
@@ -88,6 +88,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.82" />
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="54dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/botones"
+        android:fontFamily="@font/inter_bold"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.974"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="41dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu__1_" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
