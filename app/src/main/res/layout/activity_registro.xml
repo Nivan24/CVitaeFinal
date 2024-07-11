@@ -43,8 +43,8 @@
         android:id="@id/edit_text_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="12dp"
         android:fontFamily="@font/inter"
         android:text="crea tu cuenta de"
         android:textColor="@color/botones"
@@ -61,7 +61,9 @@
         android:text="CVitae"
         android:textColor="@color/titulos"
         app:layout_constraintBottom_toTopOf="@+id/edit_text_id3"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/edit_text_id" />
 
     <EditText
         android:id="@id/edit_text_id3"
@@ -201,6 +203,7 @@
     <Button
         android:id="@+id/btn_registro"
         android:layout_height="46dp"
+        android:layout_width="match_parent"
         android:layout_marginBottom="32dp"
         android:backgroundTint="#4D82BC"
         android:fontFamily="@font/inter"
