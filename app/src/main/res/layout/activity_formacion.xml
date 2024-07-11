@@ -23,7 +23,7 @@
     </androidx.appcompat.widget.Toolbar>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_registro"
         android:layout_width="175dp"
         android:layout_height="52dp"
         android:layout_marginBottom="120dp"
@@ -43,7 +43,7 @@
         android:fontFamily="@font/inter"
         android:hint="Fecha de finalizacion"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btn_registro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent" />

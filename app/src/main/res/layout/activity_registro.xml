@@ -97,14 +97,14 @@
         app:layout_constraintVertical_bias="0.854" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/txt_contraseña"
         android:layout_width="308dp"
         android:layout_height="41dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
         android:fontFamily="@font/inter"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btn_registro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.349"
         app:layout_constraintStart_toStartOf="parent"
@@ -119,14 +119,14 @@
         android:text="Contraseña"
         android:textColor="@color/titulos"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintBottom_toTopOf="@+id/txt_contraseña"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/txt_email"
         android:layout_width="308dp"
         android:layout_height="41dp"
         android:layout_marginBottom="4dp"
@@ -148,7 +148,7 @@
         android:text="Email"
         android:textColor="@color/titulos"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/txt_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toStartOf="parent"
@@ -199,8 +199,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="284dp"
+        android:id="@+id/btn_registro"
         android:layout_height="46dp"
         android:layout_marginBottom="32dp"
         android:backgroundTint="#4D82BC"
